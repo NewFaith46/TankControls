@@ -1,22 +1,22 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-doomg" at "2026-11-02T20:32:44.1160057Z"
 Built from '6000.3/staging' branch; Version is '6000.3.24f1 (4e7b9b5b6244) revision 5143451'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26300) Core' Language: 'en' Physical Memory: 32557 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-doomg" at "2026-11-02T20:48:21.9085304Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-02T20:32:44Z
+Date: 2026-11-02T20:48:21Z
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29048, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              db0a0d5012634df0827a0a3855aa02cf
+  Session Id:              f3ccb5a05a1a4231b2ebd3b6fbbc750f
   Correlation Id:          7a26a7232d95f63ce7b3da7748cc9329
-  External correlation Id: 5516287507354994652
+  External correlation Id: 8555497112864989614
   Machine Id:              e5mW9K0Vno9VbZy9+VIvxU1uC/M=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-doomg" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-doomg-notifications" at "2026-11-02T20:32:44.1430252Z"
-[Licensing::Module] Licensing Background thread has ended after 0.03s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-doomg" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-doomg-notifications" at "2026-11-02T20:48:21.9317074Z"
+[Licensing::Module] Licensing Background thread has ended after 0.02s
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Unity.exe
@@ -30,13 +30,13 @@ C:/Users/doomg/TankControls
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64067
+53309
 -parentPid
-30220
+19112
 -analyticsCloudUserId
-1374601870510
+anonymous
 -analyticsLocalProjectId
-6340af77f9b4ea64f89fb5f28ac794b8
+78b7eee94214cb047a45dcc6d1464e78
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
@@ -91,12 +91,12 @@ C:/Users/doomg/TankControls
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [9848]  Target information:
+Player connection [46948]  Target information:
 
-Player connection [9848]  * "[IP] 100.70.104.3 [Port] 0 [Flags] 2 [Guid] 2749600163 [EditorId] 2749600163 [Version] 1048832 [Id] WindowsEditor(7,NewFaith46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [46948]  * "[IP] 100.70.104.3 [Port] 0 [Flags] 2 [Guid] 1856343438 [EditorId] 1856343438 [Version] 1048832 [Id] WindowsEditor(7,NewFaith46) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [46948] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [46948] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -108,7 +108,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.80 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -126,7 +126,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -139,8 +139,8 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.008577 seconds.
-- Loaded All Assemblies, in  0.322 seconds
+Registered in 0.007360 seconds.
+- Loaded All Assemblies, in  0.288 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
@@ -150,37 +150,37 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.292 seconds
-Domain Reload Profiling: 610ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 546ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (134ms)
-		LoadAssemblies (97ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (95ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (104ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (292ms)
+	FinalizeReload (260ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (264ms)
+		SetupLoadedEditorAssemblies (228ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (53ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -190,1199 +190,80 @@ Domain Reload Profiling: 610ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.639 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 5 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.65 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.590 seconds
-Domain Reload Profiling: 1225ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 1334ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (421ms)
-		LoadAssemblies (299ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (337ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (130ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (591ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (665ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (459ms)
+		SetupLoadedEditorAssemblies (588ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (157ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.75 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 6644 unused Assets / (3.7 MB). Loaded Objects now: 7439.
-Memory consumption went from 166.1 MB to 162.4 MB.
-Total: 5.023300 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.250100 ms MarkObjects: 3.071400 ms  DeleteObjects: 1.314300 ms)
+Unloading 8504 unused Assets / (7.0 MB). Loaded Objects now: 9117.
+Memory consumption went from 170.0 MB to 163.0 MB.
+Total: 10.682800 ms (FindLiveObjects: 1.333400 ms CreateObjectMapping: 0.456000 ms MarkObjects: 6.736400 ms  DeleteObjects: 2.155900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 85615.824992 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Drawing
-  artifactKey: Guid(08971b3b50484acd81bdf19e0b4beb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Drawing using Guid(08971b3b50484acd81bdf19e0b4beb5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af5b2baf25aee55e6b56e8f2e8f95216') in 0.0443788 seconds
+  Time since last request: 86553.963038 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(158fb3df599f88142999def5d4faecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(158fb3df599f88142999def5d4faecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c909f63407b8357d955835f7098ebeb') in 0.0164126 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.ugui/Editor Resources/Gizmos
-  artifactKey: Guid(e93ec7eb6de342aabd156833e253f838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Editor Resources/Gizmos using Guid(e93ec7eb6de342aabd156833e253f838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e68ac29a4186f18274645d1d8f89697') in 0.0087483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Migrations
-  artifactKey: Guid(938d43d9c30404060a9a8135d66467aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugin/Migrations using Guid(938d43d9c30404060a9a8135d66467aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ba47ca16a13fcf3c347ffb76729e86c') in 0.014913 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.modules.vectorgraphics
-  artifactKey: Guid(04c6898809c37620ac863cc2a5d7c4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.modules.vectorgraphics using Guid(04c6898809c37620ac863cc2a5d7c4d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd47762237ab0875f28a84073af19a32') in 0.0312177 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Assignment
-  artifactKey: Guid(662cc5e740e0841e1bb91853ab803f33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Assignment using Guid(662cc5e740e0841e1bb91853ab803f33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba54863cfed6e7752dfe867c23fb1666') in 0.0089067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collections/DocCodeSamples.Tests
-  artifactKey: Guid(ed2c1c145cb193d4d8987d3886bc12b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collections/DocCodeSamples.Tests using Guid(ed2c1c145cb193d4d8987d3886bc12b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a44a5b8b9c4750c9c834a521cf9559cf') in 0.0081183 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Textures/FilmGrain
-  artifactKey: Guid(35e7db2dee6acee439714675bb2193f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Textures/FilmGrain using Guid(35e7db2dee6acee439714675bb2193f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99c3d49ff0f09e9eb92df44bce9759b1') in 0.0079032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow
-  artifactKey: Guid(e50f8b9234b76f74d82582452a467f57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow using Guid(e50f8b9234b76f74d82582452a467f57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5760731bf682d58aa4eca3440c5c869c') in 0.0075757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.timeline/Editor/Items
-  artifactKey: Guid(3a5038547af7c7f46bd90a015862e0b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.timeline/Editor/Items using Guid(3a5038547af7c7f46bd90a015862e0b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61c505149fda940bdcad45aaa0c95b0f') in 0.0084776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Exceptions
-  artifactKey: Guid(7261815fb7b1c4aeb899c8f9cc18d5d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Exceptions using Guid(7261815fb7b1c4aeb899c8f9cc18d5d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fd41ea99bc76db93c542396fdcdd26a') in 0.0080947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Filters
-  artifactKey: Guid(d80c4e95670104343b609a632c5a4157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Filters using Guid(d80c4e95670104343b609a632c5a4157) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fca7d0050493f0ab8525e8f89846a0f3') in 0.0083052 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Tests/Editor
-  artifactKey: Guid(278a7d565ddb1e840ac57ad1bb121e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Tests/Editor using Guid(278a7d565ddb1e840ac57ad1bb121e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '941adf04760282ad342ff997cb483ecf') in 0.0146847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets
-  artifactKey: Guid(d27a56a5783f89e409983f9a35efe7cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets using Guid(d27a56a5783f89e409983f9a35efe7cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fa068e43ac637c5e25fc4c175ca48bd') in 0.0088112 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.inputsystem/Tests
-  artifactKey: Guid(f1c1e9b3951e340e48a3d2c037d6f48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/Tests using Guid(f1c1e9b3951e340e48a3d2c037d6f48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '889f73b5d26236c5b5ff8de39ca4bd95') in 0.0077226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Data
-  artifactKey: Guid(f78c50a65bb1b22409719a84b48ff794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Data using Guid(f78c50a65bb1b22409719a84b48ff794) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9808c211679458262db3ba3c07ec71ba') in 0.0085989 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary
-  artifactKey: Guid(f259e8e6a245f82429441223b86481b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary using Guid(f259e8e6a245f82429441223b86481b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1f141eca1828a161a89664b6d7eab0f') in 0.0075745 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures
-  artifactKey: Guid(837c8a5059e05e74f8f9b8cbb40c6fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures using Guid(837c8a5059e05e74f8f9b8cbb40c6fa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea9ac5c7cda455e6ed2912fafcd50637') in 0.0067078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Framework/Graph
-  artifactKey: Guid(80d5cd46de8ca404692849f4a46c2306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Framework/Graph using Guid(80d5cd46de8ca404692849f4a46c2306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1c5129a81b6b8c73aba175991e40fc2') in 0.0199426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/CodeEditor/Editing
-  artifactKey: Guid(69545da8115b7fd459252e2795b975da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/CodeEditor/Editing using Guid(69545da8115b7fd459252e2795b975da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '728582f2c73f8aa03b7722f2c8bd660d') in 0.008364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.mathematics/Unity.Mathematics.Editor
-  artifactKey: Guid(ed3cf288b647446a1a4040049eb363d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.mathematics/Unity.Mathematics.Editor using Guid(ed3cf288b647446a1a4040049eb363d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '540d16d095722933f83d70dcfa1fc5d6') in 0.0070257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Inspector/Properties/Branch
-  artifactKey: Guid(06657c386ba945c2a6e83c5e1d0f04d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Inspector/Properties/Branch using Guid(06657c386ba945c2a6e83c5e1d0f04d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86b14c14081c0b31e5b07effd167d18b') in 0.008522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection
-  artifactKey: Guid(9ddd8c837d1c542b5aaf490022c44132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Dependencies/FullSerializer/Reflection using Guid(9ddd8c837d1c542b5aaf490022c44132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee10eebd7202605ffaf012b454df5dab') in 0.0097853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/UI/UnityInternals/UnityEditor/SceneManagement
-  artifactKey: Guid(58ea190e1cd94c2ca3a4b39e76639f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/UI/UnityInternals/UnityEditor/SceneManagement using Guid(58ea190e1cd94c2ca3a4b39e76639f7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cdb377fe81f5d8cd7c4cfd9afcef7d0') in 0.0108865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.300784 seconds.
-  path: Packages/com.unity.modules.accessibility
-  artifactKey: Guid(783ee1c8fd4414848db1be97aacf44fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.modules.accessibility using Guid(783ee1c8fd4414848db1be97aacf44fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '718f36f85bb03fa4e2060055c90a3e4d') in 0.0100314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D
-  artifactKey: Guid(e674d0c2643d94245b5da6cc11dfe0ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D using Guid(e674d0c2643d94245b5da6cc11dfe0ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f451d38c472b46019d27dfa57f78d880') in 0.0070536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/2D/RendererFeatures
-  artifactKey: Guid(6410ec30b9d85cf40b53826342e69ac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/2D/RendererFeatures using Guid(6410ec30b9d85cf40b53826342e69ac4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d0a9011c9565f63085d0f0bc6179a8e') in 0.008827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/DirectoryContent
-  artifactKey: Guid(158cb24897c04303a383697ef5349bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/CloudDrive/Workspaces/DirectoryContent using Guid(158cb24897c04303a383697ef5349bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae85a1b095e46b577bb31421b8c01366') in 0.0086748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Dropdown
-  artifactKey: Guid(bae197be297529d4fa735fbe7c91828d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/Dropdown using Guid(bae197be297529d4fa735fbe7c91828d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff9c1f603d92a0867a438f965f993035') in 0.0221973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Special
-  artifactKey: Guid(3b3cfcfecab3b47f2b858c4bb5e3ae5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Inspection/Special using Guid(3b3cfcfecab3b47f2b858c4bb5e3ae5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '849a1b1cc022dcb8ef93ecbc3e9b953a') in 0.0091754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.timeline/Editor/treeview/Drawers
-  artifactKey: Guid(d40a0edbdcdcf9747a420f3bbe0f18db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.timeline/Editor/treeview/Drawers using Guid(d40a0edbdcdcf9747a420f3bbe0f18db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc7234f0c3d88a0f07efe274ef8821a4') in 0.0088685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Devices
-  artifactKey: Guid(7ada2e545c685b44a8367bdab267f0dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Devices using Guid(7ada2e545c685b44a8367bdab267f0dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3448710b8387c88c333ae70b83cd945f') in 0.0264713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/PostProcessing
-  artifactKey: Guid(3f1ba847a8ffd4746a56b6b3a2177aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Editor/PostProcessing using Guid(3f1ba847a8ffd4746a56b6b3a2177aed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4908ef01bed0c3b59ec0a334b6f91232') in 0.0085402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/CanvasRenderer
-  artifactKey: Guid(a69b08936f9f74179ae333a4bebe7c54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/CanvasRenderer using Guid(a69b08936f9f74179ae333a4bebe7c54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22819fd03c06de29a781c5919e121d44') in 0.007961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Diff/Image/Views/SideBySide
-  artifactKey: Guid(ca0b25f6cad2c45419e69a71c9f47695) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Diff/Image/Views/SideBySide using Guid(ca0b25f6cad2c45419e69a71c9f47695) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e8ed7fe0a3ab157d4bf78b86e851935') in 0.0081188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Decorators
-  artifactKey: Guid(fc4d9a317f2ee464887412e4b1ff834a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Decorators using Guid(fc4d9a317f2ee464887412e4b1ff834a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4ab106e461db79c4692b57e206e908b') in 0.0102624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.modules.adaptiveperformance
-  artifactKey: Guid(b975297a992381c1f3257d0e96892c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.modules.adaptiveperformance using Guid(b975297a992381c1f3257d0e96892c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4eb4df9f793cf74c7a08f41ae290e024') in 0.00892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.ugui/Tests/Editor/UGUI/UI/PropertyDrawers
-  artifactKey: Guid(24333a116497b144f9782b1160984b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Editor/UGUI/UI/PropertyDrawers using Guid(24333a116497b144f9782b1160984b57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f5a957909f270b36c70d112caf10c7a') in 0.0073703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Gradient
-  artifactKey: Guid(6c3178830acf943f8bf39e5a651057f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Gradient using Guid(6c3178830acf943f8bf39e5a651057f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbbf7beea432d3d1d8b5fa75354a02b0') in 0.0081714 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Diff
-  artifactKey: Guid(37b5532626676e045a3b172c915e5d79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Diff using Guid(37b5532626676e045a3b172c915e5d79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6728a24c7073e77b8598e0daccd89c68') in 0.0329525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/AssemblyProvider
-  artifactKey: Guid(51557afa652635743b264a309f0a5c60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/AssemblyProvider using Guid(51557afa652635743b264a309f0a5c60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a25842865edc0f5e72e64f0ecde20a6f') in 0.0094928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Codebase
-  artifactKey: Guid(8bacd8e244a98460fb44204788e98cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Codebase using Guid(8bacd8e244a98460fb44204788e98cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f4ef18adf99fbbefd784bdf2778e1dd') in 0.0077966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/ConfigurationPanel
-  artifactKey: Guid(c26b211e65e2e45efa3c037960d9c802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Windows/ConfigurationPanel using Guid(c26b211e65e2e45efa3c037960d9c802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'beb63121951505ba84d9ed959e0a52c1') in 0.0087902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/InputField
-  artifactKey: Guid(2a28c2fab6b1bb745a844ef6b908e7ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/InputField using Guid(2a28c2fab6b1bb745a844ef6b908e7ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fc30ceba263b6ec021be14122c46fe8') in 0.0076161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Labels/Dialogs
-  artifactKey: Guid(aaf37a5e30fbb9e4096ba67f72a4b8f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Labels/Dialogs using Guid(aaf37a5e30fbb9e4096ba67f72a4b8f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2b54ec4571b782bbbae8cd5b4d8f0419') in 0.0088482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources/UXML/Blackboard
-  artifactKey: Guid(faa5d782c77ec7b41a65542649dbcc98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Resources/UXML/Blackboard using Guid(faa5d782c77ec7b41a65542649dbcc98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f62f2912120f855349b479764da81ad6') in 0.0077787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.shadergraph/Tests/Editor/IntegrationTests
-  artifactKey: Guid(e636bcaad60bb8e4da48c07cdcb938b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Tests/Editor/IntegrationTests using Guid(e636bcaad60bb8e4da48c07cdcb938b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6dea40a0684f7cea913827c05b2194f') in 0.0092283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Developer
-  artifactKey: Guid(f6079802724cc154ea5667c3a1e31d43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Developer using Guid(f6079802724cc154ea5667c3a1e31d43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7da6c0151cf137106f80f5580e3d290c') in 0.0083648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Connections
-  artifactKey: Guid(fa1a96c0a3f154fbba933b74f7414a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Connections using Guid(fa1a96c0a3f154fbba933b74f7414a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '203a0cb33bbe6e8c5abba11a359a4b0f') in 0.0084227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Resources
-  artifactKey: Guid(64c9c5df0004c44f0896e816c69c7aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Resources using Guid(64c9c5df0004c44f0896e816c69c7aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40d1f7a5916ab7a39570721dbbf95998') in 0.0083156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Diff/Image/Views
-  artifactKey: Guid(5c1340178d3942abb42c8b680d301bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Diff/Image/Views using Guid(5c1340178d3942abb42c8b680d301bf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e342d7e7b34b2eb1b6b1fdadd6c5e6') in 0.0094308 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Filters
-  artifactKey: Guid(c3de99f9efc582a48995bc8e8c2df418) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Filters using Guid(c3de99f9efc582a48995bc8e8c2df418) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92c12d61e06be8058d876909bfaa1fdd') in 0.0094464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/MaskClipping
-  artifactKey: Guid(2bc8a181dfd9de24388de89bb8db7713) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/MaskClipping using Guid(2bc8a181dfd9de24388de89bb8db7713) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2510d19b2f50d5d5ccbc6aa3af526ed1') in 0.0072138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Properties
-  artifactKey: Guid(21e141260b3a4d67acebf527db3ddd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Properties using Guid(21e141260b3a4d67acebf527db3ddd56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '219b68b48d83d5938e61038746938744') in 0.0075887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.ugui/Tests/Editor/UGUI/Slider
-  artifactKey: Guid(4cfe5ade9a1375e40aed87618b92bd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Editor/UGUI/Slider using Guid(4cfe5ade9a1375e40aed87618b92bd12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd955a495a63721a6e771d8d5ceb0246d') in 0.0086843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.render-pipelines.core/Shaders
-  artifactKey: Guid(1966e5ee4a6d00344b701c86ac98a770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Shaders using Guid(1966e5ee4a6d00344b701c86ac98a770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10e7371b7c2280202ec84ef51dc8b37d') in 0.0077206 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/ShadingModels
-  artifactKey: Guid(a22c22fb536604167866c59ce9a780d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/ShadingModels using Guid(a22c22fb536604167866c59ce9a780d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d1a4e346c2d20b2569bca2d7175b17d') in 0.0086497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.universal-config/Tests
-  artifactKey: Guid(b16c0985df25c08458c254464b931122) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal-config/Tests using Guid(b16c0985df25c08458c254464b931122) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6fa15db7bb3eb5f7708c08cb9e905c2') in 0.0094085 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollRect
-  artifactKey: Guid(9bedab6f9886aee42b33e424bffdb640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollRect using Guid(9bedab6f9886aee42b33e424bffdb640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e67c527d5a11e0e606bc3481570b05c') in 0.0077901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.collab-proxy/Lib/Editor/TextMateSharp/Onigwrap/libonigwrap/win-x86
-  artifactKey: Guid(a05969d78cc3d44469783fe59f3bfa65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Lib/Editor/TextMateSharp/Onigwrap/libonigwrap/win-x86 using Guid(a05969d78cc3d44469783fe59f3bfa65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e4a67c9c49a8c40d6b8cfd2d8c4120e') in 0.0072985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes
-  artifactKey: Guid(f9df817efe7f52045a7cd7ae84fd47ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes using Guid(f9df817efe7f52045a7cd7ae84fd47ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67be6154102dbf1c9f0d22754a7c8da8') in 0.009512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.mathematics/Unity.Mathematics/Properties
-  artifactKey: Guid(d3e017d9ad3f00a4c9e234b0236911b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.mathematics/Unity.Mathematics/Properties using Guid(d3e017d9ad3f00a4c9e234b0236911b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'deb180746222c06c1ff34b809f883bb2') in 0.0094128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.modules.physics
-  artifactKey: Guid(d6db7caf2e852b75ebb9c6098418179c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.modules.physics using Guid(d6db7caf2e852b75ebb9c6098418179c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f0d34c83281872a39621ee45acecc67') in 0.0080885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.render-pipelines.core/Tests/Editor/Analytics
-  artifactKey: Guid(1b3ed7ed96f03fb41af34f1c2e6a1fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/Analytics using Guid(1b3ed7ed96f03fb41af34f1c2e6a1fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1bd27d0bc31f10884cd604e2e33dc2a9') in 0.0089614 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Gizmo
-  artifactKey: Guid(bce47e7c42ffde449812bbbf027555d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Gizmo using Guid(bce47e7c42ffde449812bbbf027555d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2729360979f707dd6d5862a5fda74263') in 0.0093033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Diff/Asset/Common/UnityObject
-  artifactKey: Guid(4230d3b9af6f940719414ab4bd67a08e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Diff/Asset/Common/UnityObject using Guid(4230d3b9af6f940719414ab4bd67a08e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc067974da91af6a9274bd98240ba6ff') in 0.008396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/PlayerInput
-  artifactKey: Guid(95a3b96623aff409fad313b971f84743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/PlayerInput using Guid(95a3b96623aff409fad313b971f84743) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bce6b5385e84187f9d297be8fc1eb3ac') in 0.0097398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands
-  artifactKey: Guid(6b72875690e0f7343911e06af3145bd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/NUnitExtensions/Commands using Guid(6b72875690e0f7343911e06af3145bd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffd11ddbb6ded0ff7df11dc2e539e3be') in 0.0082829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins
-  artifactKey: Guid(9397bf768746f40dcac0070d1101cb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Plugins using Guid(9397bf768746f40dcac0070d1101cb36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ae76bf4be870aafdb0a5a604dfbd358') in 0.0081623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Shim
-  artifactKey: Guid(78c9ad9712dcd8a4d9ed0770a8fe6cc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Shim using Guid(78c9ad9712dcd8a4d9ed0770a8fe6cc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '923720f6700ca63d9f58fe419b72ce3e') in 0.0111592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Inspector
-  artifactKey: Guid(d4f346ffc6a5b7146bdff6f43464df28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Inspector using Guid(d4f346ffc6a5b7146bdff6f43464df28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f024b34ea4c0f6bdcc316ef2c936e48b') in 0.0135339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/ScriptTemplates
-  artifactKey: Guid(3c76ead915a5d4c3190e62adcb063092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/ScriptTemplates using Guid(3c76ead915a5d4c3190e62adcb063092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa538b10dbcd8417dab6e3ac9a33dd32') in 0.0096138 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Settings
-  artifactKey: Guid(c189b798c1d4842fcb189cf619033d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Settings using Guid(c189b798c1d4842fcb189cf619033d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e962522d014299f0e13c83840422bb23') in 0.0089951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Decal
-  artifactKey: Guid(219911eb3a3b7d54e8218af5aca772dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Decal using Guid(219911eb3a3b7d54e8218af5aca772dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea1a78f2c1943805aea84fac6c510741') in 0.0123655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders
-  artifactKey: Guid(86304ecf756376e4b8ecb6f9d6111b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders using Guid(86304ecf756376e4b8ecb6f9d6111b89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '530dd8afd803f18c549bd34f8bf7a9fb') in 0.01338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Packages/com.unity.test-framework/UnityEditor.TestRunner/CommandLineTest
-  artifactKey: Guid(b477d1f29b65a674e9d5cdab4eb72b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/CommandLineTest using Guid(b477d1f29b65a674e9d5cdab4eb72b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee226f9e9d388eae0b23f1139856f4d9') in 0.0120264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Data
-  artifactKey: Guid(4926c06156894939ba0a2680f1b0aa7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/TestRun/Data using Guid(4926c06156894939ba0a2680f1b0aa7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ce15d4ca2fcb062f3360b488277f2d7') in 0.0129882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.universal/ShaderLibrary/Debug
-  artifactKey: Guid(9f4aa226a5594efa99614cb0158c2f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/ShaderLibrary/Debug using Guid(9f4aa226a5594efa99614cb0158c2f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc5a329210111bec296005afb28384b8') in 0.0096171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Controls
-  artifactKey: Guid(25ea971cc17caa84a8a2fdf9917af7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Plugins/XR/Controls using Guid(25ea971cc17caa84a8a2fdf9917af7b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67f239f61ced3da99e406296fab9aa2e') in 0.0127693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Haptics
-  artifactKey: Guid(e286fc65ad3d4645b213e71b11e963e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Runtime/Devices/Haptics using Guid(e286fc65ad3d4645b213e71b11e963e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '627a5136d31c092192173be5a7f948ba') in 0.0111899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary
-  artifactKey: Guid(534c3b565c7ef4248a10594dbdf4faf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary using Guid(534c3b565c7ef4248a10594dbdf4faf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4ee291a7394a5b26b01b7064a3e71ea') in 0.0101486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc
-  artifactKey: Guid(fac4026eb26ea42c29c85fec8007face) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Dependencies/NCalc using Guid(fac4026eb26ea42c29c85fec8007face) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdb2b9a842856c1af062121b45123a4b') in 0.0102397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Drawing/Controllers
-  artifactKey: Guid(b1b1a4fb9c392ef49acffada0059f01e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Drawing/Controllers using Guid(b1b1a4fb9c392ef49acffada0059f01e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '384ebb9ba998f47dac28c596ff3b3976') in 0.0102395 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.collab-proxy
-  artifactKey: Guid(c7996f53d58fc3918d988080b6e917ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy using Guid(c7996f53d58fc3918d988080b6e917ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '002c16163e73bd6430350e16793606be') in 0.012596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView
-  artifactKey: Guid(eab7f42d361b483aaa760c5909002312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView using Guid(eab7f42d361b483aaa760c5909002312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f937efaa64cccdc96d2e35d84c594fda') in 0.0098021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Editor
-  artifactKey: Guid(38164072c56204142abecaf906e1fad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Events/Editor using Guid(38164072c56204142abecaf906e1fad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e6a3e809815cdcba8a1b6a374d492df') in 0.0113771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assistant/UI/Interactions
-  artifactKey: Guid(6ed4af135d46444bb82543c0676535c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Assistant/UI/Interactions using Guid(6ed4af135d46444bb82543c0676535c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44056ce04f323acf7bf4fe3fd94c2c03') in 0.0092259 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Assets
-  artifactKey: Guid(b01e5a3d2517b904698dbc9fa0df727f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Assets using Guid(b01e5a3d2517b904698dbc9fa0df727f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec021787047219f9bbaf4bcb19ecc8af') in 0.0120378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Changesets
-  artifactKey: Guid(a83160f252281df4ebb018688dad5f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Changesets using Guid(a83160f252281df4ebb018688dad5f08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75e6fca03cae868c7efe822a3c486bf5') in 0.0096294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Options/ConditionalFormat
-  artifactKey: Guid(3759a3b34c2714f738805af7001e839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/BranchExplorer/Options/ConditionalFormat using Guid(3759a3b34c2714f738805af7001e839f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9dcb22bf9c8047bb73cb3b2ccbbdca1') in 0.0119464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.core/Tests/Editor/Tools
-  artifactKey: Guid(167414eb9b5aac148a050554ea60a5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/Tools using Guid(167414eb9b5aac148a050554ea60a5cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c215be9c1eed579e20a45b347c3fa19') in 0.0091473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Diff/Asset/Diff/Property
-  artifactKey: Guid(c5fe7e62b877408882a2c7096800559b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Diff/Asset/Diff/Property using Guid(c5fe7e62b877408882a2c7096800559b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6575e256cc72976c91751dfcf0942832') in 0.0112458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/MonoBehaviourTest
-  artifactKey: Guid(ce8da628f68c7594b8b9a597fa52db7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/Utils/MonoBehaviourTest using Guid(ce8da628f68c7594b8b9a597fa52db7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '120cea647c9fcddc2e6d5fa2fb7d62b7') in 0.0092276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/Debug
-  artifactKey: Guid(83e12e3399064822abd3e69798ce3053) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/Debug using Guid(83e12e3399064822abd3e69798ce3053) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '996e4288ab6f01938994cf22fa1bacd6') in 0.0100199 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.multiplayer.center/Editor/Analytics
-  artifactKey: Guid(21f32d2f4add49b3b11fadb6889a2156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.multiplayer.center/Editor/Analytics using Guid(21f32d2f4add49b3b11fadb6889a2156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbbf5897062f639c77e9e034e7dc4f88') in 0.0105326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.test-framework.performance/Runtime/Data
-  artifactKey: Guid(0369bc643b4a11246a869e582c0f275a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework.performance/Runtime/Data using Guid(0369bc643b4a11246a869e582c0f275a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '335ef42287c0621720157ef5e1261ba4') in 0.0129404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/StickyNote
-  artifactKey: Guid(7a1d84ad5ed44fa18feb8a550ea61879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/StickyNote using Guid(7a1d84ad5ed44fa18feb8a550ea61879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe18a64857768ff73026d71a0054589e') in 0.0094744 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Lights
-  artifactKey: Guid(7a8d83d0230a4974a88b7be5ab87c6c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Lights using Guid(7a8d83d0230a4974a88b7be5ab87c6c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a28a4edc9972de330d063132e3800f0e') in 0.011186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Callbacks
-  artifactKey: Guid(61e236e8570a95e4eb754fb291e102e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Callbacks using Guid(61e236e8570a95e4eb754fb291e102e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02897d7ce6797f03c46af980db7ff218') in 0.0098032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Packages/com.unity.collab-proxy/Lib/Editor/TextMateSharp/Onigwrap/libonigwrap/win-x64
-  artifactKey: Guid(9315f038861f843d3894954f9be43296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Lib/Editor/TextMateSharp/Onigwrap/libonigwrap/win-x64 using Guid(9315f038861f843d3894954f9be43296) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e98c91be62d63b79e80d0e406848e289') in 0.0121921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural
-  artifactKey: Guid(e74e11761cab2b446b96ce63e2d657b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural using Guid(e74e11761cab2b446b96ce63e2d657b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8b765a81fc04bcc153746bef4097511') in 0.011353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/Tools
-  artifactKey: Guid(715d10cee9082354a92701de6d5f6527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/Tools using Guid(715d10cee9082354a92701de6d5f6527) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f94d29376c383457b79be924f8880115') in 0.0097766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.test-framework/UnityEditor.TestRunner/TestLaunchers
-  artifactKey: Guid(d64d92e4f04a13e4b99ea8d48e9e8ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/TestLaunchers using Guid(d64d92e4f04a13e4b99ea8d48e9e8ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98f0476ab42e40b5da16d6dd6d872ebd') in 0.0112817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/Diff/Dialogs
-  artifactKey: Guid(3ac250bc549a212428286f328779be0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/Diff/Dialogs using Guid(3ac250bc549a212428286f328779be0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10b586e7b32447c551e2ab3751cfec15') in 0.0103756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/CodeEditor/Search
-  artifactKey: Guid(93f1a63777a7b49e7a6bb3f2eb183b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/CodeEditor/Search using Guid(93f1a63777a7b49e7a6bb3f2eb183b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bf56c7405796a03d88ade37c5a4f213') in 0.0135089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.mathematics/Tests/Tests/Shared
-  artifactKey: Guid(1d6d62c94d82bf748b95682fa88ef3b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.mathematics/Tests/Tests/Shared using Guid(1d6d62c94d82bf748b95682fa88ef3b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fbb3036e6469816cf7294fb0e9a73f6') in 0.0102706 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.ai.navigation
-  artifactKey: Guid(37e24e6a78fa1f81f8c5c28d5214fa86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ai.navigation using Guid(37e24e6a78fa1f81f8c5c28d5214fa86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fab3300e607c092ad17d5530b284ad04') in 0.0108024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Shared
-  artifactKey: Guid(2182f36bd09634746ad9f6835691ac90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Shared using Guid(2182f36bd09634746ad9f6835691ac90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c57f5356d12b1f0b6f568d0b3c43054') in 0.0117542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/TextEditor
-  artifactKey: Guid(93effba7cf7f3824ab0bd048a27a9c02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/TextEditor using Guid(93effba7cf7f3824ab0bd048a27a9c02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '51f7f86f84b85c277418783a7b68ccb3') in 0.0095167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.shadergraph/Editor/ShaderGUI
-  artifactKey: Guid(c03d0f7d344c4c0a877eea9f1a0168fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/ShaderGUI using Guid(c03d0f7d344c4c0a877eea9f1a0168fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab80ce26a6b65cb4dfc5ebc350450da9') in 0.0091608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Drawing/Inspector
-  artifactKey: Guid(1d1f4aaa81084a13aaeb78dfaf7d35d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Drawing/Inspector using Guid(1d1f4aaa81084a13aaeb78dfaf7d35d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7adbf77ed9ff27d5a655a40c2f13fab') in 0.0101314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Upscaling
-  artifactKey: Guid(dfe03cc61c27c974ab28f8691b3f8c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Upscaling using Guid(dfe03cc61c27c974ab28f8691b3f8c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1db58c8eb17cbe87dc87a8479a7d5914') in 0.0094321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Graph
-  artifactKey: Guid(98334bb8cc7445e29e30f5b50c9fe53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Graph using Guid(98334bb8cc7445e29e30f5b50c9fe53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85fb215787b77c08ab1490005c71bd8f') in 0.0109287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Vector
-  artifactKey: Guid(c3becf597e5084fe8825c0ec59a22201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Vector using Guid(c3becf597e5084fe8825c0ec59a22201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '970aab01ad470cac1d57b1563b6b3217') in 0.0093751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.ugui/Runtime/UGUI/EventSystem/Raycasters
-  artifactKey: Guid(46646a5562f14984690c85ee7b946bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Runtime/UGUI/EventSystem/Raycasters using Guid(46646a5562f14984690c85ee7b946bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '042e54336bdee3b5a28944423603746a') in 0.0094053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipeline
-  artifactKey: Guid(18ccf971905222545a09cfda33385c7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderPipeline using Guid(18ccf971905222545a09cfda33385c7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15b9dd39755cab46df2d195d4e24c114') in 0.0107839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/UVCSToolbar/PopupWindow/BranchesList
-  artifactKey: Guid(132f4852ac624340a1662611b86b2bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/UVCSToolbar/PopupWindow/BranchesList using Guid(132f4852ac624340a1662611b86b2bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '236523c839c1cf8a12a0e4eb6c5dd208') in 0.0103887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Codebase
-  artifactKey: Guid(61c823205c2384c13b4d38c05194c1df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Flow/Framework/Codebase using Guid(61c823205c2384c13b4d38c05194c1df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ad7893564a79fbd85af270d4a904aed') in 0.0098235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.ugui/Tests/Runtime/UGUI/Image
-  artifactKey: Guid(1091bc2ad06e3234aac2b2fa2841c09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Runtime/UGUI/Image using Guid(1091bc2ad06e3234aac2b2fa2841c09d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76b89deb34e5c2d8e8c1587f3edbc4b4') in 0.0092358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework
-  artifactKey: Guid(263ad70d08f1443a98e957c081b172a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework using Guid(263ad70d08f1443a98e957c081b172a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7dd1cd82e6d7d3446ee2f040ad53a92f') in 0.0106221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Templates
-  artifactKey: Guid(52f964a4069524b47bd98441cad69cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Templates using Guid(52f964a4069524b47bd98441cad69cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d004ed832fbcd10171e3479deba1393') in 0.0117497 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Settings
-  artifactKey: Guid(00a116691603d1943905c38f0640a134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Settings using Guid(00a116691603d1943905c38f0640a134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19fe3a48719be12b831d527bf66b4fb0') in 0.0094151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Views/PendingChanges
-  artifactKey: Guid(5d558eb582a19cf46b06976fb93d7896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/Views/PendingChanges using Guid(5d558eb582a19cf46b06976fb93d7896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e8ec0e57bc5d9c43945e2f3d7354f35') in 0.0131954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages
-  artifactKey: Guid(9ea154c33fd8466f973f004e5c962df7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityTestProtocol/Messages using Guid(9ea154c33fd8466f973f004e5c962df7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef5310a19f9ec460926731464793cade') in 0.0118749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.render-pipelines.core/Tests/Editor/Volumes
-  artifactKey: Guid(93ab3f290033d9a48b3cce3d26d93f89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Tests/Editor/Volumes using Guid(93ab3f290033d9a48b3cce3d26d93f89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6bf7b2b727c006e07343f28a2f7574de') in 0.0121694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Icons
-  artifactKey: Guid(d282282bdd9a39349a3f4642751d8e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Icons using Guid(d282282bdd9a39349a3f4642751d8e2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '769076500f5fad630478f53535918f9e') in 0.009074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.collections/Unity.Collections.Tests/Jobs
-  artifactKey: Guid(15816ede41b819e439cb53115efc62b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collections/Unity.Collections.Tests/Jobs using Guid(15816ede41b819e439cb53115efc62b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ecd88c09f447b6b69b0be7c3031dfae') in 0.0111388 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Tests
-  artifactKey: Guid(90821e75f62bb9e4ea9d6111201e1d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal/Tests using Guid(90821e75f62bb9e4ea9d6111201e1d90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54fa9d29237c083e68866eaffd5ec9c9') in 0.0092108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Debug
-  artifactKey: Guid(0543e23b6a0f25741b67b1bee0292e70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Debug using Guid(0543e23b6a0f25741b67b1bee0292e70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d7b7a0a628a9f314a33244a906c7d1c') in 0.0083011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.mathematics
-  artifactKey: Guid(45c97f030cad27ef8667e2ac80bf5783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.mathematics using Guid(45c97f030cad27ef8667e2ac80bf5783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '139b4373d811f8a3c4ae54ac556d2c96') in 0.0091567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.timeline/Editor/Properties
-  artifactKey: Guid(0f71aeefaa877ae4787e8356f25ad1e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.timeline/Editor/Properties using Guid(0f71aeefaa877ae4787e8356f25ad1e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bba90d37b35742ea0eda7e87c2a6e0a') in 0.0113719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/Steam
-  artifactKey: Guid(0a40837a6cb5749b69436d6839711335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Plugins/Steam using Guid(0a40837a6cb5749b69436d6839711335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f8d9e6110a0155a25dbd70b3b1d118a') in 0.0097961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.ugui/Tests/Editor/UGUI/CanvasRenderer
-  artifactKey: Guid(ae242449e9279d44789513b922d3178a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.ugui/Tests/Editor/UGUI/CanvasRenderer using Guid(ae242449e9279d44789513b922d3178a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8984b10ddede9ec06ba9f0f1de0a2f0b') in 0.0112243 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures
-  artifactKey: Guid(dbf7c066574f12a439bf604f2214a450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures using Guid(dbf7c066574f12a439bf604f2214a450) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fab17ae610a8861bb9d93010fdc0e9c9') in 0.0106187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.burst/Unity.Burst.CodeGen
-  artifactKey: Guid(0025085fa936303aa05b328e44651f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.burst/Unity.Burst.CodeGen using Guid(0025085fa936303aa05b328e44651f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fffb45eb551039a79bb0559d33d7634f') in 0.0121643 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.render-pipelines.universal-config/Tests/Editor
-  artifactKey: Guid(e3c6a2f8ffe72de4bb4f45bbe266aff8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.render-pipelines.universal-config/Tests/Editor using Guid(e3c6a2f8ffe72de4bb4f45bbe266aff8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11251b383b23420d1d8c68ee674729f1') in 0.0101317 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow
-  artifactKey: Guid(7a7dcde6448847648629a13d746ce966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow using Guid(7a7dcde6448847648629a13d746ce966) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92ab64ba43a89bd34574060533483e7a') in 0.01087 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection/Optimization
-  artifactKey: Guid(a5260e1cbe5b7460198b99b38fd2739e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.Core/Reflection/Optimization using Guid(a5260e1cbe5b7460198b99b38fd2739e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8581bf721e9ed52207bd8e8b51a018ff') in 0.0102533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources
-  artifactKey: Guid(efa7753b2a14da748b0e7802b6ac3c5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.searcher/Editor/Resources using Guid(efa7753b2a14da748b0e7802b6ac3c5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e0e2ab4674d76898ecd30757513c394') in 0.0091631 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Messages
-  artifactKey: Guid(256a0ca37fa972840bce7fca446e75e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.test-framework/UnityEngine.TestRunner/TestRunner/Messages using Guid(256a0ca37fa972840bce7fca446e75e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fd37ba0b9a1991902241b5a059b40df') in 0.0117449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/UI/UndoRedo
-  artifactKey: Guid(aed2b943076bcc2498a95dbd61af50da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/UI/UndoRedo using Guid(aed2b943076bcc2498a95dbd61af50da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b22414a7de66a538d1bb54fea36c817') in 0.0126455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Variables/Obsolete
-  artifactKey: Guid(51cfb7de5f5e440b5bef2d44350468ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Flow/Framework/Variables/Obsolete using Guid(51cfb7de5f5e440b5bef2d44350468ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02ee76144824dc15a1c4effd8b870122') in 0.011293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/CodeEditor/Utils
-  artifactKey: Guid(95fd48b26b354bd396b3ba43717db5d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Packages/com.unity.collab-proxy/Editor/CodeEditor/Utils using Guid(95fd48b26b354bd396b3ba43717db5d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae72db43dcc1dcae90cae6d597793711') in 0.0098432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
