@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Image tint-color="rgb(37, 89, 44)" source="project://database/Resources/unity_builtin_extra?fileID=10309&amp;guid=0000000000000000f000000000000000&amp;type=0#Default-Checker-Gray" scale-mode="StretchToFill" style="height: 1081px;">
+        <ui:Label text="Tank Controls&#10;" name="Title" style="height: 255px; width: 1121px; position: relative; top: 185px; left: 717px; font-size: 60px;"/>
+        <ui:Button text="Start Game" name="StartButton" style="width: 341px; height: 121px; position: relative; top: 86px; left: 763px; font-size: 40px;"/>
+        <ui:Button text="End Game" name="QuitButton" style="width: 341px; height: 121px; position: relative; top: 86px; left: 763px; font-size: 40px;"/>
+    </ui:Image>
+</ui:UXML>
